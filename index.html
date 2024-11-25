@@ -15,11 +15,19 @@
     />
   </head>
   <body>
-    <div class="container-fluid">
-      <!-- Navbar -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light justify-content-between mb-4"
-      >
+    <style>
+      .nav-pil .nav-link {
+        color: gray;
+      }
+      .nav-pil .nav-link-active {
+        color: blue;
+      }
+    </style>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light justify-content-between mb-4"
+    >
+      <div class="container-fluid">
         <a href="#" class="navbar-brand d-flex ms auto align-items-center">
           <i class="fa-brands fa-instagram fa-xl me-2"></i>
           <span>Instagram</span>
@@ -45,7 +53,7 @@
             </button>
 
             <ul
-              class="dropdown-menu"
+              class="dropdown-menu dropdown-menu-end"
               aria-labelledby="dropdownMenuButton align-items-right"
             >
               <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -58,8 +66,9 @@
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
     <!-- Modal structure -->
     <div
       class="modal fade"
@@ -198,7 +207,7 @@ Add caption of your post</textarea
 
           <!--image grid 3-->
           <div class="d-block w-100 height-50px justify-content-between">
-            <div class="row py-4">
+            <div class="row py-4 git push origin main">
               <div class="col-md-4">
                 <img
                   style="height: 30vw; object-fit: cover"
